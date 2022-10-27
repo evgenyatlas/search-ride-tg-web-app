@@ -1,0 +1,39 @@
+/* .SelectDests {}
+
+.SelectDests__Selected {} */
+
+.SelectDests__SelectFrom {
+    margin-bottom: var(--base-margin-bottom-input);
+}
+
+.SelectDests_SelectTo {
+    clear: both;
+    margin-bottom: var(--base-margin-bottom-input);
+
+}
+
+.BtnSwap {
+    transition: transform 0.5s cubic-bezier(0.36, 1.3, 0.04, 1);
+    display: block;
+    width: 19px;
+    height: 19px;
+    float: right;
+    margin-top: -18px;
+    margin-bottom: 2px;
+    cursor: none;
+    margin-right: 17px;
+}
+
+/**Animation for swap**/
+.SelectDests__Selected {
+    transform: translate3d(0px, 0px, 0px);
+    transition: transform 0.7s cubic-bezier(0.36, 1.3, 0.04, 1);
+}
+
+.SelectDests_swaping .SelectDests__Selected {
+    transform: translate3d(0px, -100%, 0px);
+}
+
+.SelectDests_swaping .SelectDests__SelectFrom .SelectDests__Selected {
+    transform: translate3d(0px, 100%, 0px);
+}

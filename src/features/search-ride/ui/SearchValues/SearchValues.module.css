@@ -1,0 +1,38 @@
+.SearchValues {
+    height: var(--base-height-control);
+    background: var(--tg-theme-secondary-bg-color);
+    box-sizing: border-box;
+    border-radius: var(--base-border-radius);
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+.SearchValues__Content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.SearchValues__BackIcon {
+    margin-right: 19px;
+}
+
+.SearchValues__Route {
+    color: var(--tg-theme-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.SearchValues__ArrowRoute {
+    margin: 0px 10px;
+}
+
+.SearchValues__DatePassengers {
+    font-size: 12px;
+    margin-top: -6px;
+    color: var(--tg-theme-hint-color);
+}

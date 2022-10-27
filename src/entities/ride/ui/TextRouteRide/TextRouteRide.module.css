@@ -1,0 +1,11 @@
+.TextRouteRide {
+    color: var(--tg-theme-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.TextRouteRide__ArrowRoute {
+    margin: 0px 10px;
+}

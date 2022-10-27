@@ -1,0 +1,63 @@
+.Input {
+    height: 32px;
+    border: none;
+    background: #EBEDF0;
+    border-radius: var(--base-border-raidus);
+    font-weight: 400;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.Input__Input {
+    box-sizing: border-box;
+    outline: none;
+    background: #EBEDF0;
+    border: none;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    padding: 0px 11px;
+    border-radius: var(--base-border-raidus);
+}
+
+.Input__Input:focus-within,
+.Input__Input:focus-visible {
+    outline: 0.5px solid rgb(38, 136, 235);
+}
+
+.Input_stretched {
+    width: 100%;
+}
+
+.Input_appearance_transparent,
+.Input_appearance_transparent .Input__Input {
+    height: 44px;
+    background: white;
+    border: none;
+    border-radius: 0px;
+    padding-left: 0px;
+    caret-color: #0076f8;
+}
+
+.Input_appearance_transparent .Input__Input::placeholder {
+    color: #c8c8cd;
+}
+
+.Input_appearance_transparent .Input__Input:focus-within,
+.Input_appearance_transparent .Input__Input:focus-visible {
+    outline: none;
+}
+
+.Input_appearance_transparent.Input_size_m,
+.Input_appearance_transparent.Input_size_m .Input__Input {
+    height: 59px;
+    font-size: 20px;
+}
+
+.Input_appearance_transparent.Input_size_m .Input__Input::placeholder {
+    color: #c8c8cd;
+}

@@ -1,0 +1,26 @@
+.HistorySearch {
+    padding: 0 5px;
+}
+
+.ItemHistory {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 7px 30px;
+    border-bottom: 2px solid var(--tg-theme-secondary-bg-color);
+}
+
+.ItemHistory__Route {
+    width: 100%;
+}
+
+.ItemHistory__Icon {
+    position: absolute;
+    left: 0px;
+    margin-right: 30px;
+}
+
+.ItemHistory__Enter {
+    position: absolute;
+    right: 0px
+}

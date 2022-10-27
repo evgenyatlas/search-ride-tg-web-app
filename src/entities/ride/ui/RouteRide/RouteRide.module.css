@@ -1,0 +1,47 @@
+.RouteRide {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.RouteLine {
+    height: 100%;
+    padding: 21px 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.RouteRide__DestTo {
+    margin-top: -4px;
+}
+
+.RouterLine__Line {
+    height: 100%;
+    border: 1px solid var(--tg-theme-secondary-bg-color);
+    opacity: 0.7;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.RouterLine__Line::after,
+.RouterLine__Line::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-left: -5.5px;
+    border: 2px solid var(--tg-theme-secondary-bg-color);
+    position: absolute;
+}
+
+
+.RouterLine__Line::before {
+    top: -12px;
+}
+
+.RouterLine__Line::after {
+    bottom: -12px;
+}

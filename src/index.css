@@ -1,0 +1,30 @@
+body {
+  font-family: -apple-system, system-ui, "Helvetica Neue", Roboto, sans-serif, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background: var(--tg-theme-bg-color);
+  margin: 0;
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+
+:root {
+  --base-border-raidus: 10px;
+  --base-padding: 15px;
+  --ios-easing: cubic-bezier(0.36, 0.66, 0.04, 1);
+  --base-height-control: 48px;
+  --base-border-radius: 10px;
+  --base-margin-bottom-input: 20px;
+}

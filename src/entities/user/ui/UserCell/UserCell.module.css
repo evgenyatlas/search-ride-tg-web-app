@@ -1,0 +1,28 @@
+.UserCell {
+    display: flex;
+    align-items: center;
+}
+
+.UserCell__Avatar {
+    margin-right: 14px;
+}
+
+.UserCell__Name {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--tg-theme-text-color);
+}
+
+.UserCell__Contact {
+    font-size: 12px;
+    color: var(--tg-theme-hint-color);
+}
+
+.UserCell__Contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserCell__Contact>span {
+    margin-top: -7px;
+}

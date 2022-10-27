@@ -1,0 +1,10 @@
+.NumberPassengers__ItemSelected {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.NumberPassengers__ItemSelected>span {
+    margin-left: 11px;
+    padding-left: 4px;
+}

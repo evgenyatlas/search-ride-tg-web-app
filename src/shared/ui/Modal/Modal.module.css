@@ -1,0 +1,69 @@
+.Modal__Body {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 4px 16px;
+    width: 100%;
+    background: var(--tg-theme-bg-color);
+    position: fixed;
+    top: var(--tg-viewport-height, 0);
+    transform: translateY(-100%);
+    margin-top: +60px;
+    left: 0px;
+    box-sizing: border-box;
+    transition: transform 0.55s var(--ios-easing);
+    z-index: 11;
+}
+
+.Modal__Header {
+    height: 56px;
+    line-height: 56px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--tg-theme-text-color);
+    font-weight: 500;
+    width: 100%;
+}
+
+/*ANIMATION FOR FADE IN AND OUT*/
+.Modal__Body_entering {
+    transform: translateY(+100%);
+}
+
+.Modal__Body_entered {
+    transform: translateY(-100%);
+}
+
+.Modal__Body_exiting {
+    transform: translateY(100%);
+}
+
+.Modal__Body_exited {
+    transform: translateY(100%);
+}
+
+.Modal__Overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .4);
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    transition: opacity .4s ease;
+}
+
+.Modal__Overlay_entering {
+    opacity: 0;
+}
+
+.Modal__Overlay_entered {
+    opacity: 1;
+}
+
+.Modal__Overlay_exiting {
+    opacity: 0;
+}
+
+.Modal__Overlay_exited {
+    opacity: 0;
+}

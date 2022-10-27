@@ -1,0 +1,48 @@
+.Select {
+    transition: transform 0.5s var(--ios-easing);
+}
+
+.Select__InputContainer {
+    position: relative;
+    z-index: 1;
+}
+
+.Select__Selection {
+    transition: opacity 0.4s var(--ios-easing);
+    background: var(--tg-theme-bg-color);
+    position: absolute;
+    width: 100%;
+    margin-top: -1px;
+    padding-top: 6px;
+}
+
+.Select_selected .Select__Input {
+    background: var(--tg-theme-bg-color);
+    position: relative;
+}
+
+.Select__Counter {
+    background: var(--tg-theme-bg-color);
+    position: relative;
+}
+
+/**opening animation**/
+.Select_opened {
+    z-index: 1;
+    position: relative;
+}
+
+.Select_opened .Input {
+    border-radius: 0px;
+}
+
+.Select_opened .Select__Input {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.Select_opened .Select__Selection {
+    opacity: 1;
+    position: absolute;
+    height: 90vh;
+}

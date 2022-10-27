@@ -1,0 +1,29 @@
+.RideCard {
+    width: 100%;
+    padding: 0px 14px;
+    margin-top: 23px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.RideCard__Route {
+    width: 44%;
+}
+
+.RideCard__Head {
+    display: flex;
+    color: var(--tg-theme-text-color);
+    font-weight: 400;
+    width: 100%;
+    position: absolute;
+    top: -28px;
+    left: 0px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.RideCard__User {
+    margin-left: 12px;
+}

@@ -1,0 +1,6 @@
+.Card {
+    border: 3px solid var(--tg-theme-secondary-bg-color);
+    background: var(--th-theme-bg-color);
+    box-sizing: border-box;
+    border-radius: var(--base-border-radius);
+}

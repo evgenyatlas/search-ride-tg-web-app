@@ -1,0 +1,37 @@
+.Avatar {
+    width: 24px;
+    height: 24px;
+    line-height: 40px;
+    font-family: 18px;
+    border-radius: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-size: 100%;
+}
+
+.Avatar_color_blue {
+    background: #3498DB;
+}
+
+.Avatar_color_green {
+    background: #2ECC71
+}
+
+.Avatar_color_red {
+    background: #E74C3C;
+}
+
+.Avatar_color_orange {
+    background: #F39C12;
+}
+
+.Avatar_size_s {}
+
+.Avatar_size_m {
+    width: 48px;
+    height: 48px;
+    line-height: 66px;
+    font-size: 1.5rem;
+}

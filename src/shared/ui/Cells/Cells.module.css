@@ -1,0 +1,8 @@
+.Cells {}
+
+.Cells__Item {
+    height: 50px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
